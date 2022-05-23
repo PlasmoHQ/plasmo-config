@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "CLI",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "composite": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es6"
+  }
+}
