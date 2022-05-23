@@ -24,4 +24,4 @@
 
 # Plasmo Config
 
-Reusable tooling configuration from [Plasmo](https://www.plasmo.com).
+Reusable tooling configuration for [Plasmo](https://github.com/PlasmoHQ/plasmo).
