@@ -14,6 +14,13 @@ declare namespace NodeJS {
      */
     PLASMO_SRC_DIR?: string
 
+    /**
+     * Relative path to the build directory from project root
+     */
+    PLASMO_BUILD_PATH?: string
+
+    PLASMO_BUILD_DIR?: string
+
     // Generic env
     APP_VERSION?: string
     VERBOSE?: "true" | "false"
