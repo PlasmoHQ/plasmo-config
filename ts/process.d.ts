@@ -5,6 +5,10 @@ declare namespace NodeJS {
 
     // Framework env
     /**
+     * Absolute path to the project directory
+     */
+    PLASMO_PROJECT_DIR?: string
+    /**
      * Relative path to the source-code directory from project root
      */
     PLASMO_SRC_PATH?: string
