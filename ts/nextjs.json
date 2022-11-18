@@ -4,6 +4,8 @@
   "extends": "./base.json",
   "compilerOptions": {
     "target": "es2015",
+    "declaration": false,
+    "declarationMap": false,
     "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
     "module": "esnext",
