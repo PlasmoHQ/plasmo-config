@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Runner module, no declaration created",
+  "extends": "./cli.json",
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false,
+    "composite": false
+  }
+}

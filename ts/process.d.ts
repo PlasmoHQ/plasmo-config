@@ -4,6 +4,8 @@ declare namespace NodeJS {
     PLASMO_ITERO_ENDPOINT?: string
 
     // Framework env
+    PLASMO_FRAMEWORK_INTERNAL_WATCHER_STARTED?: "true"
+
     /**
      * Absolute path to the project directory
      */
