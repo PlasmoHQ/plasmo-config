@@ -27,6 +27,10 @@ declare namespace NodeJS {
 
     PLASMO_BUILD_DIR?: string
 
+    PLASMO_TAG?: string
+
+    PLASMO_TARGET?: string
+
     // Generic env
     APP_VERSION?: string
     VERBOSE?: "true" | "false"
