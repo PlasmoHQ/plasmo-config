@@ -17,7 +17,7 @@
     "skipLibCheck": true,
     "strict": false,
     "allowJs": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "incremental": true,
     "resolveJsonModule": true,
     "tsBuildInfoFile": ".tsbuildinfo"
