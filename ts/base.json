@@ -9,7 +9,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
-    "isolatedModules": true,
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
@@ -17,9 +16,9 @@
     "skipLibCheck": true,
     "strict": false,
     "allowJs": true,
-    "importsNotUsedAsValues": "error",
     "incremental": true,
     "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
     "tsBuildInfoFile": ".tsbuildinfo"
   },
   "exclude": ["node_modules"]
