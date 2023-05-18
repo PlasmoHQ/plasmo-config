@@ -3,10 +3,6 @@ declare namespace NodeJS {
     // Platform env
     PLASMO_ITERO_ENDPOINT?: string
 
-    // Framework env
-    __PLASMO_FRAMEWORK_INTERNAL_WATCHER_STARTED?: "true"
-    __PLASMO_FRAMEWORK_INTERNAL_SOURCE_MAPS?: "inline" | "external" | "none"
-
     /**
      * Absolute path to the project directory
      */

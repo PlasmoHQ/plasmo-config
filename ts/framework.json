@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "CLI",
+  "extends": "./base.json",
+  "files": ["./framework.d.ts", "./process.d.ts"],
+  "compilerOptions": {
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "composite": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ESNext"
+  }
+}
