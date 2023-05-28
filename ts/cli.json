@@ -7,8 +7,9 @@
       "~*": ["./src/*"]
     },
     "composite": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
     "target": "ESNext"
   }
 }

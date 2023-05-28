@@ -4,12 +4,14 @@
   "extends": "./base.json",
   "files": ["./window.d.ts"],
   "compilerOptions": {
-    "target": "es2015",
     "declaration": false,
     "declarationMap": false,
     "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
-    "module": "esnext",
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "es2015",
     "jsx": "preserve",
     "isolatedModules": true
   },

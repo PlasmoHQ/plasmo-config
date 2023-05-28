@@ -3,6 +3,7 @@
   "display": "Default",
   "files": ["./process.d.ts"],
   "compilerOptions": {
+    "noEmit": true,
     "composite": false,
     "declaration": true,
     "declarationMap": true,

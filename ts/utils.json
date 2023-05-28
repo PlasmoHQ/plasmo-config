@@ -4,8 +4,10 @@
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
     "module": "ESNext",
-    "target": "ES6",
+    "target": "ESNext",
     "composite": true
   }
 }
