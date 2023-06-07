@@ -8,6 +8,6 @@
     "moduleResolution": "bundler",
     "module": "ESNext",
     "target": "ESNext",
-    "composite": true
+    "composite": false
   }
 }
